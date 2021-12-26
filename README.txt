@@ -22,3 +22,12 @@ HELP =>
 4)Папка которая создается на сервере
     4.1) название меняется в config/path.js (ftp: "")
     4.2) Параметры для подключения задаются в config/ftp.js
+5)Для нормального подключения картинок, нужно расширение Path Autocomplete 
+	5.1)ctrl + shift + p
+	5.2)Вставляем код 
+	"path-autocomplete.pathMappings": {
+        "@img": "${folder}/src/img",
+        "@scss": "${folder}/src/scss",
+        "@js": "${folder}/src/js",
+    },
+    	5.3) Пути указываем src="@img/"
